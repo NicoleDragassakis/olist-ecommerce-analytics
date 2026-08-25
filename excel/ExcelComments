@@ -1,0 +1,40 @@
+## Excel PivotTable Analysis
+
+After creating the master analysis dataset in SQL Server, I connected Excel directly to the database and used Power Query to validate the imported fields before beginning exploratory analysis.
+
+I used PivotTables as a quick validation and discovery step before building the final Power BI report. Rather than immediately deciding what visuals to create, I wanted to first understand which parts of the dataset produced meaningful business insights.
+
+### Product Category
+
+The first PivotTable summarized the total item sales by product category. This helped identify which product categories contributed the most merchandise sales and provided an initial view of product performance.
+
+This analysis showed that categories such as health and beauty, watches and gifts, bed and bath, sports and leisure, and computer accessories were among the strongest categories by total sales.
+
+### Sales by Customer State
+
+The second PivotTable analyzed total sales by customer state. This was used to understand the geographic distribution of Olist's sales and identify which markets generated the highest levels of customer activity.
+
+This analysis helped establish geography as an important dimension to include in the final dashboard.
+
+### Average Review Score by Product Category
+
+The third PivotTable compared average customer review scores across product categories. I also considered the number of reviews associated with each category because an average based on a very small number of reviews may not be representative.
+
+This allowed the analysis to move beyond sales performance and include customer satisfaction as another important business metric.
+
+### Monthly Sales Trend
+
+The fourth PivotTable analyzed total sales by month and year. The purpose of this analysis was to identify changes in sales over time, including growth patterns, declines, and possible seasonal behavior.
+
+This time-based analysis helped determine that a sales trend visualization would be valuable in the final Power BI report.
+
+## Direction of the Analysis
+
+The PivotTable analysis helped narrow the project into four main areas:
+
+* Product performance
+* Geographic sales performance
+* Customer satisfaction
+* Sales trends over time
+
+These findings guided the design of the Power BI dashboard. Instead of selecting visuals first, the dashboard was designed around the patterns and business questions identified during the SQL and Excel exploration stages.
